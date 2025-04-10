@@ -52,7 +52,7 @@ export default function Message({ message, sender, recipient }) {
       
       <div className="prose prose-lg max-w-2xl mx-auto text-gray-700 relative z-10 prose-headings:text-purple-700 prose-a:text-purple-600 romantic-text">
         <p className="mb-4 text-center italic">
-          {recipient ? `To my ${recipient},` : 'To my beloved,'}
+          {recipient ? `To my ${recipient},` : "To my beloved,"}
         </p>
         
         {message ? (
@@ -63,16 +63,16 @@ export default function Message({ message, sender, recipient }) {
               Happy 7th Monthsary Honeyyy ❤️
             </p>
             <p className="mb-4">
-              I Can't Believe That We're on 7th Months Of love hehehe. Every Single Day with you feels like a gift for me, like literally you light me up talaga even the dullest moments. i already miss your presence besides me and your hugs are my favorite kind of home. 🥰
+              I Can&apos;t Believe That We&apos;re on 7th Months Of love hehehe. Every Single Day with you feels like a gift for me, like literally you light me up talaga even the dullest moments. i already miss your presence besides me and your hugs are my favorite kind of home. 🥰
             </p>
             <p className="mb-4">
-              I Remember our first date like something it was yesterday but not exactly yesterday hehehe. the moment i saw you for the first time sparks me and asking my inner self na "is this my gf?, waaaah tangkad kayo" since then, we've made a memories through personal. and that time we sleep together sad like it feels like i'm safe from u. You've already shown me what it means to love fully and fearlessly. ✨
+              I Remember our first date like something it was yesterday but not exactly yesterday hehehe. the moment i saw you for the first time sparks me and asking my inner self na &quot;is this my gf?, waaaah tangkad kayo&quot; since then, we&apos;ve made a memories through personal. and that time we sleep together sad like it feels like i&apos;m safe from u. You&apos;ve already shown me what it means to love fully and fearlessly. ✨
             </p>
             <p className="mb-4">
-              In This 7 months also, i already your value and your most vulnerable and every version of you. it kinda inspires me how smart you are and keep my self align with my studies. and hoping I've done the same for you. 💫
+              In This 7 months also, i already your value and your most vulnerable and every version of you. it kinda inspires me how smart you are and keep my self align with my studies. and hoping I&apos;ve done the same for you. 💫
             </p>
             <p className="mb-4">
-              Thank you for choosing me, trusting me and loving me honeyyy ko. i love you more than words than saying "too" more than stars light up in the sky and the longest trip just to see my love one. 💖
+              Thank you for choosing me, trusting me and loving me honeyyy ko. i love you more than words than saying &quot;too&quot; more than stars light up in the sky and the longest trip just to see my love one. 💖
             </p>
             <p className="mb-4">
               Happy Monthsary Again honey koo 💕
@@ -82,7 +82,7 @@ export default function Message({ message, sender, recipient }) {
         
         <p className="text-right italic mt-8">
           Forever yours,<br />
-          <span className="font-semibold text-purple-600">{sender || 'Your Honeyyyy'}</span>
+          <span className="font-semibold text-purple-600">{sender || "Your Honeyyyy"}</span>
         </p>
       </div>
       
